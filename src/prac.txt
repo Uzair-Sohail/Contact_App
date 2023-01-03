@@ -1,0 +1,37 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// const lname = 'Ali';
+// const fname = 'Uzair';
+// const num = 12;
+// const headStyle = {
+//   color:'Red',
+//   fontSize: '2.5rem',
+//   fontWeight: 'bold',
+// }
+
+root.render(
+  <React.StrictMode>
+    {
+      //  <h1>Hello {`${fname} ${lname}`}</h1>  /*Template Literals */}
+      //  <p>{fname} your lucky number is {num}</p>
+      // <div>
+      //   <h1>My Favourite Food</h1>
+      //   <img className='img' src="https://www.foodfusion.com/wp-content/uploads/2022/09/YT-06-300x225.jpg?v=1671538425" alt="food" />
+      //   <img className='img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU" alt="food" />
+      //   <img className='img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU" alt="food" />
+      //   <h2 style={headStyle}>My Favourite Books</h2>
+      // </div>
+    }
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
