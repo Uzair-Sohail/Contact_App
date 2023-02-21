@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(name, img, tel, email) {
+function Card({name, img, tel, email}) {
   return (
     <div className="card">
       <div className="top">
