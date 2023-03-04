@@ -1,3 +1,4 @@
+//file name should be contactData.json
 const contacts = [
   {
     name: "Beyonce",
